@@ -1,0 +1,36 @@
+<hr> tag is used to seperate 2 sections using a horizontal line break. Similar to <br/>(line break) tag but adds an extra border.
+
+<pre> tag is fixed-width font (usually Courier), and it preserves both spaces(unlike <p>) and line breaks.
+
+<strong> element defines strong text, with added semantic "strong" importance.(counterpart is bold)
+
+<em> element defines emphasized text, with added semantic importance.(counterpart is italic)
+
+<mark> element defines marked or highlighted text(workds like highlighter).
+
+<del> element defines deleted text.(with a line crossed over the text).
+
+<ins> element defines inserted (added) text.(with an underline)
+
+<sub> element defines subscripted text.(below the base line).
+
+<sup> element defines superscripted text.(above the base line).
+
+<q> element defines a short quotation. Browsers usually insert quotation marks around the <q> element.
+
+<blockquote> element defines a section that is quoted from another source. Browsers usually indent <blockquote> elements.
+
+<abbr> element defines an abbreviation or an acronym. Marking abbreviations can give useful information to browsers, translation systems and search-engines. it has display of inline-block and gets a dotted border bottom.
+
+<address> element defines contact information (author/owner) of a document or an article.The <address> element is usually displayed in italic. Most browsers will add a line break before and after the element.
+
+<cite> element defines the title of a work. Browsers usually display <cite> elements in italic.
+
+<bdo> element defines bi-directional override.The <bdo> element is used to override the current text direction. ltr reads left to right and rtl reads right to left.
+
+Conditional Comments
+You might stumble upon conditional comments in HTML:
+
+<!--[if IE 9]>
+    .... some HTML here ....
+<![endif]-->
